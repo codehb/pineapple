@@ -4,7 +4,7 @@ var can = document.getElementById("canvas"),
     img = new Image();
 
 img.src = 'pineapple.png';
-can.onclick= function(evt) {
+can.onmousemove= function(evt) {
     var x = evt.offsetX - img.width/2,
         y = evt.offsetY - img.height/2;
 
